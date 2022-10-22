@@ -1,3 +1,5 @@
 /.idea
 /.vscode
 /node_modules
+backend_sanity/node_modules
+backend_sanity/yarn.lock
