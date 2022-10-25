@@ -3,3 +3,5 @@
 /node_modules
 backend_sanity/node_modules
 backend_sanity/yarn.lock
+frontend_react/node_modules
+frontend_react/yarn.lock
