@@ -1,0 +1,26 @@
+.app__navbar {
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: rgba(255, 255, 255, .25);
+  backdrop-filter: blur(4px);
+  -webkik-backdrop-filter: blur(4px);
+  border: 1px solid rgba(255, 255, 255, .18);
+}
+
+.app__navbar-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+
+  img {
+    @media screen and (min-width: 2000px) {
+      width: 180px;
+      height: 40px;
+    }
+  }
+}
