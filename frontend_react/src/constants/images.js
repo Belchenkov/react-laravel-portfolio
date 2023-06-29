@@ -35,6 +35,10 @@ import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 import avatar from '../assets/avatar.png';
+import telegram from '../assets/telegram.png';
+import skype_social from '../assets/skype_social.png';
+import portfolio from '../assets/portfolio.png';
+import github from '../assets/github.png';
 
 export default {
     avatar,
@@ -71,4 +75,8 @@ export default {
     nb,
     skype,
     spotify,
+    telegram,
+    skype_social,
+    portfolio,
+    github,
 };

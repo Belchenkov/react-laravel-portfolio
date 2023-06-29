@@ -2,8 +2,8 @@ import {
     About,
     Footer,
     Header,
-    Skills,
-    Testimonial,
+    // Skills,
+    // Testimonial,
     Work,
 } from './container';
 
@@ -20,8 +20,8 @@ const App = () => {
             <Header />
             <About />
             <Work />
-            <Skills />
-            <Testimonial />
+            {/*<Skills />*/}
+            {/*<Testimonial />*/}
             <Footer />
         </div>
     );
