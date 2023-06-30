@@ -18,15 +18,15 @@ const Work = () => {
         'Angular/MEAN',
         'React/Redux/MERN',
         'Electron.js',
-        'TypeScript',
+        // 'TypeScript',
         'React Native',
         'Python/Django/Flask',
-        'Golang',
-        'GraphQL',
+        // 'Golang',
+        // 'GraphQL',
         'NS/PWA/Ionic/Flutter',
-        'All'
+        // 'All'
     ];
-    const [activeFilter, setActiveFilter] = useState('All');
+    const [activeFilter, setActiveFilter] = useState('HTML5/CSS3');
     const [works, setWorks] = useState([]);
     const [filterWork, setFilterWork] = useState([]);
     const [animateCard, setAnimateCard] = useState({
