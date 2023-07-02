@@ -9,24 +9,24 @@ import MotionWrap from '../../wrapper/MotionWrap';
 
 const Work = () => {
     const worksList = [
+        'All',
         'HTML5/CSS3',
         'JavaScript',
-        'PHP/Laravel/SQL',
+        'PHP/Laravel/Symfony',
         'Vue/Vuex/MEVN',
         'Nuxt.js/Next.js/SSR',
         'Node.js/Express/Nest',
         'Angular/MEAN',
         'React/Redux/MERN',
         'Electron.js',
+        'React Native'
         // 'TypeScript',
-        'React Native',
-        'Python/Django/Flask',
+        // 'Python/Django/Flask',
         // 'Golang',
         // 'GraphQL',
-        'NS/PWA/Ionic/Flutter',
-        // 'All'
+        // 'NS/PWA/Ionic/Flutter',
     ];
-    const [activeFilter, setActiveFilter] = useState('HTML5/CSS3');
+    const [activeFilter, setActiveFilter] = useState('All');
     const [works, setWorks] = useState([]);
     const [filterWork, setFilterWork] = useState([]);
     const [animateCard, setAnimateCard] = useState({
